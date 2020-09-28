@@ -1,22 +1,22 @@
 # Gamblers-Ruin-Insurance-Example
-*Gamblers Ruin is a statistical concept that demonstrates the fact that a gambler with finite wealth will eventually go broke against an opponent with infinite wealth, regardless of their betting system, even if there is a positive expected value on each bet.
+*Gamblers Ruin is a statistical concept that demonstrates the fact that an entity with finite wealth will eventually go broke against an opponent(s) with infinite wealth, regardless of their betting system, even if there is a positive expected value on each bet.
 
 import random
 sim = 0
 nruin = 0
-nsims = 1000
+nsims = #numberofsimulations
 while sim < nsims:
-    sim += #winningamount    
+    sim += 1    
     amount = #beginningamount    
-    days = #daysuntilbroke    
+    days = #days untilbroke    
     day = 0     
     while day < days:        
         day += 1        
         prob = random.random()        
-        if prob > #probabilityofruin :               
-            amount +=1        
+        if prob > #probabilityofruin:               
+            amount += #interestamount        
         else:            
-            amount -=1        
+            amount -= #claimammont        
         if amount  == 0:            
             nruin += 1            
             break
