@@ -1,4 +1,4 @@
-# Gamblers-Ruin-Insurance-Example
+# Python-Gamblers-Ruin-Insurance-Example
 *Gamblers Ruin is a statistical concept that demonstrates the fact that an entity with finite wealth will eventually go broke against an opponent(s) with infinite wealth, regardless of their betting system, even if there is a positive expected value on each bet.
 
 import random
