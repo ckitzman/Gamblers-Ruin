@@ -1,5 +1,5 @@
 # Gamblers Ruin 
-> This python script can be used to prove the classic example of Gambler's ruin. 
+> This python script can be used to showcase the classic example of Gambler's ruin. 
 
 ## Table of Contents
 * [General Info](#general-information)
